@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Choices</title>
+  <link rel="stylesheet" href="userr.css">
+</head>
+<style>
+  /* General Page Styles */
+  body {
+    /* background: url('bg.jpg') no-repeat center center/cover;  */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a3636;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+  /* Choice Container */
+  .choice-container {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 500px;
+  }
+
+  /* Heading */
+  .choice-container h1 {
+    margin-bottom: 10px;
+    color: #333;
+  }
+
+  /* Paragraph */
+  .choice-container p {
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #555;
+  }
+
+  /* Button Group */
+  .button-group {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  /* Choice Buttons */
+  .choice-button {
+    text-decoration: none;
+    padding: 15px 25px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #1a3636;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+
+  .choice-button:hover {
+    background-color: #145252;
+    transform: scale(1.05);
+  }
+</style>
+
+<body>
+  <div class="choice-container">
+    <h1>View Records in Student Management System</h1>
+    <p>Please select your Seaching type:</p>
+    <div class="choices">
+      <a href="../Records/OfficialRecords/search.html" class="choice-button student">View Student Record</a>
+      <a href="../Records/OfficialRecords/seachstaff.html" class="choice-button staff">View Staff Record</a>
+    </div>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Registration</title>
+  <link rel="stylesheet" href="studentrgist.css">
+</head>
+
+<body>
+  <div class="registration-container">
+    <h2>Student Registration Form</h2>
+    <form action="php/studentRegister.php" method="post">
+      <label for="student-name">Full Name:</label>
+      <input type="text" id="student-name" name="student-name" placeholder="Enter your full name" required>
+
+      <label for="student-email">Email:</label>
+      <input type="email" id="student-email" name="student-email" placeholder="Enter your email" required>
+
+      <label for="student-phone">Phone Number:</label>
+      <input type="tel" id="student-phone" name="student-phone" placeholder="Enter your phone number" required>
+
+      <label for="student-course">Course:</label>
+      <select id="student-course" name="student-course" required>
+        <option value="">--Select Course--</option>
+        <option value="computer-science">MBA</option>
+        <option value="engineering">MCA</option>
+        <option value="arts">BBA</option>
+        <option value="science">BCA</option>
+      </select>
+
+      <label for="dob">Date of Birth:</label>
+      <input type="date" id="dob" name="student-dob" required>
+
+      <label for="student-address">Address:</label>
+      <textarea id="student-address" name="student-address" rows="4" placeholder="Enter your address"
+        required></textarea>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" placeholder="Create a password" required>
+
+      <label for="confirm-password">Confirm Password:</label>
+      <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm your password" required>
+
+      <button type="submit" name="btn">Register</button>
+    </form>
+  </div>
+</body>
+
+</html>

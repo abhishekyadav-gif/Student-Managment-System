@@ -1,0 +1,96 @@
+/* General Styles */
+body {
+  /* background-image: url(campus2.jpg); */
+  margin: 0;
+  padding: 0;
+  
+  height: 100vh; 
+  background-attachment: fixed; 
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #1a3636;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 5rem;
+
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background: #285952;
+  margin: 4rem;
+  border-radius: 1rem;
+
+}
+
+.container img{
+  width: 100%;
+  max-height: 600px;
+  padding-top: rem;
+  border-radius: 1rem;
+  max-height: max-content;
+  padding-top: 3rem;
+  /* padding: 1rem; */
+}
+
+/* Registration Form */
+.registration-form {
+  /* background-color:#1e3f3f ; */
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  max-width: 500px;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.registration-form h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: white;
+}
+
+.registration-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: white;
+}
+
+.registration-form input,
+.registration-form select,
+.registration-form textarea {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.registration-form input:focus,
+.registration-form select:focus,
+.registration-form textarea:focus {
+  border-color: #1a3636;
+  outline: none;
+  box-shadow: 0 0 5px rgba(26, 54, 54, 0.5);
+}
+
+.registration-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #2f6969;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.registration-form button:hover {
+  background-color: #145252;
+}

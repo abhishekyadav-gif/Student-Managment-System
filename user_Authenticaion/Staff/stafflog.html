@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Staff Login</title>
+  <link rel="stylesheet" href="stafflog.css">
+</head>
+<body>
+  <div class="login-container">
+    <h2>Staff Login</h2>
+    <form action="php/login.php" method="post">
+      <label for="staff-email">Email:</label>
+      <input type="email" id="staff-email" name="staff-email" placeholder="Enter your email" required>
+
+      <label for="staff-password">Password:</label>
+      <input type="password" id="staff-password" name="staff-password" placeholder="Enter your password" required>
+
+      <button type="submit">Login</button>
+
+      <p class="forgot-password">
+        <a href="#">Forgot Password?</a>
+      </p>
+    </form>
+  </div>
+</body>
+</html>

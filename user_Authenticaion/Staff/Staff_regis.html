@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Staff Registration Form</title>
+  <link rel="stylesheet" href="staff_regis.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="img">
+      <img src="rjjjj.png" alt="">
+    </div>
+    <div class="registration-form">
+      <h2>Staff Registration Form</h2>
+      <form action="php/register.php" method="post">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+
+        <label for="department">Department:</label>
+        <select id="department" name="department" required>
+          <option value="">--Select Department--</option>
+          <option value="administration">MBA</option>
+          <option value="teaching">MCA</option>
+          <option value="teaching">BBA</option>
+          <option value="teaching">BCA</option>
+          <option value="maintenance">Maintenance</option>
+          <option value="finance">Account</option>
+        </select>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+
+        <label for="address">Address:</label>
+        <textarea id="address" name="address" rows="4" placeholder="Enter your address" required></textarea>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Create a password" required>
+
+        <label for="confirm-password">Confirm Password:</label>
+        <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm your password"
+          required>
+
+        <button type="submit">Register</button>
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,159 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #1a3636;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  background: #2f5c55;
+  margin: 4rem;
+  border-radius: 1rem;
+}
+.container img {
+  width: 100%;
+  max-width: 600px;
+  padding-top: 1rem;
+  height: auto;
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+
+  border-top-left-radius: 20px; /* Top-left corner radius */
+  border-top-right-radius: 20px;
+}
+.student_heading {
+  text-align: center;
+  margin: 20px;
+}
+
+.message h2 {
+  
+  width: 90%;
+  max-width: 400px;
+  font-size: 1.8rem;
+  text-align: center;
+  padding-left: 2.3rem;
+}
+
+form h3 {
+  color: white;
+  margin: 10px 0 20px;
+  padding-bottom: 3rem;
+  padding-top: 1rem;
+  font-size: 1.5rem;
+  width: 90%;
+  margin: 1rem;
+}
+
+.form {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+  color: white;
+  padding: 20px;
+
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+.form textarea {
+  text-align: center;
+}
+.details {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  width: 100%;
+}
+
+.data,
+.data2 {
+  flex: 1;
+}
+
+.data label,
+.data2 label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: white;
+}
+
+.data input,
+.data2 input,
+.data2 select {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+.data2 input {
+  margin-left: 5px;
+}
+button {
+  padding: 10px 20px;
+  margin-top: 20px;
+  border: none;
+  background-color: #4caf50;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  align-self: center;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+@media (max-width: 768px) {
+  .details {
+    flex-direction: column;
+  }
+
+  .container{
+    display: flex;
+    flex-direction: column;
+
+  }
+  .container img{
+    width: 100%;
+    max-width: 200px;
+
+  }
+
+.form #textarea{
+  width: 100%;
+
+
+}
+}
+
+@media (max-width: 480px) {
+  .details {
+    flex-direction: column;
+  }
+
+  .container{
+    display: flex;
+    flex-direction: column;
+
+  }
+  .container img{
+    width: 100%;
+    max-width: 200px;
+
+  }
+
+.form #textarea{
+  width: 100%;
+  
+
+}
+}

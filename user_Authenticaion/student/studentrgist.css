@@ -1,0 +1,83 @@
+/* General Page Styles */
+body {
+  margin: 0;
+  padding: 0;
+  /* background: url('./image/student3.jpg') no-repeat center center/cover;  */
+  height: 100vh; 
+  background-attachment: fixed; 
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #1a3636;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin-top: 5rem;
+}
+
+/* Registration Form Container */
+.registration-container {
+  margin-top: 2rem;
+  background-color: #1e3f3f;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(21, 13, 13, 0.2);
+  width: 100%;
+  max-width: 500px;
+
+}
+
+/* Form Heading */
+.registration-container h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #ffffff;
+  
+}
+
+/* Form Labels */
+.registration-container label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+/* Form Inputs */
+.registration-container input,
+.registration-container select,
+.registration-container textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+/* Focus Styles */
+.registration-container input:focus,
+.registration-container select:focus,
+.registration-container textarea:focus {
+  border-color: #1a3636;
+  outline: none;
+  box-shadow: 0 0 5px rgba(26, 54, 54, 0.5);
+}
+
+/* Submit Button */
+.registration-container button {
+  width: 100%;
+  padding: 10px;
+  background-color: #285959;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.registration-container button:hover {
+  background-color: #145252;
+}

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About - Student Management System</title>
+  <style>
+    /* General Styles */
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #1a3636;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .container {
+      background: #264d4d;
+      width: 90%;
+      max-width: 1000px;
+      border-radius: 15px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+      padding: 40px;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2.8rem;
+      color: #ffff;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+
+    p {
+      font-size: 1.1rem;
+      line-height: 1.7;
+      color: #fff;
+      margin-bottom: 30px;
+    }
+
+    .highlight {
+      color: #fff;
+      font-weight: bold;
+      font-weight: bold;
+    }
+
+    /* Features Section */
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 30px;
+      margin-top: 30px;
+    }
+
+    .feature-box {
+      background-color: #1a3636;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      text-align: center;
+    }
+
+    .feature-box:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    }
+
+    .feature-box h3 {
+      font-size: 1.8rem;
+      color: #4CAF50;
+      margin-bottom: 15px;
+      font-weight: 600;
+    }
+
+    .feature-box p {
+      font-size: 1.1rem;
+      color: #fff;
+      line-height: 1.6;
+    }
+
+    .feature-box i {
+      font-size: 3rem;
+      color: #4CAF50;
+      margin-bottom: 15px;
+    }
+
+    /* Footer Section */
+    .footer {
+      margin-top: 40px;
+      font-size: 1.1rem;
+      color: #fff;
+    }
+
+    /* Responsive Styles */
+    @media (max-width: 768px) {
+      .container {
+        padding: 20px;
+      }
+
+      h1 {
+        font-size: 2.2rem;
+      }
+
+      .features {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .features {
+        grid-template-columns: 1fr;
+      }
+
+      h1 {
+        font-size: 1.8rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>About the Student Management System</h1>
+    <p>Welcome to the Student Management System, a comprehensive and user-friendly platform designed to manage and
+      organize student and staff data seamlessly. The system enables users to store, search, and update vital
+      information with ease, ensuring smooth operation within educational institutions.</p>
+
+    <p>The system offers the following core features:</p>
+
+    <div class="features">
+      <div class="feature-box">
+        <i class="fas fa-users"></i>
+        <h3>Student Data Management</h3>
+        <p>Efficiently manage student records, including personal details, courses, and academic history. Add, edit, or
+          delete data as needed.</p>
+      </div>
+
+      <div class="feature-box">
+        <i class="fas fa-chalkboard-teacher"></i>
+        <h3>Staff Data Management</h3>
+        <p>Keep track of staff details such as name, role, department, and contact information, allowing for better
+          coordination and management.</p>
+      </div>
+
+      <div class="feature-box">
+        <i class="fas fa-search"></i>
+        <h3>Search Functionality</h3>
+        <p>Easily search for students or staff by their details, making information retrieval quick and hassle-free.</p>
+      </div>
+
+      <!-- <div class="feature-box">
+        <i class="fas fa-cogs"></i>
+        <h3>Easy to Use</h3>
+        <p>The user interface is designed to be intuitive and easy to navigate, allowing users to perform tasks with
+          minimal effort.</p>
+      </div> -->
+    </div>
+
+    <p class="footer">This project was developed by <span class="highlight">Abhishek Yadav</span> as part of learning
+      and
+      enhancing skills in web development and database management.</p>
+  </div>
+
+  <!-- Include FontAwesome for icons -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

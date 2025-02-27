@@ -1,0 +1,113 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #1a3636;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.social_icons {
+  /* position: fixed; */
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  margin-right: 8rem;
+  background-color: #255151;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin-top: 15rem;
+}
+
+/* Icon styles */
+.social_icons a {
+  text-decoration: none;
+  color: white;
+  background-color: #333;
+  padding: 10px;
+  border-radius: 50%;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+/* Hover effect */
+.social_icons a:hover {
+  background-color: #ff5722;
+  transform: scale(1.1);
+}
+
+/* Icon size */
+.social_icons i {
+  font-size: 20px;
+}
+
+/* Contact Container */
+.contact-container {
+  background-color: #265353;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 600px;
+  text-align: center;
+}
+
+/* Heading */
+.contact-container h1 {
+  color: white;
+  margin-bottom: 10px;
+}
+
+/* Paragraph */
+.contact-container p {
+  color: white;
+  margin-bottom: 20px;
+}
+
+/* Form Elements */
+.contact-container form label {
+  display: block;
+  text-align: left;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: white;
+}
+
+.contact-container form input,
+.contact-container form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.contact-container form input:focus,
+.contact-container form textarea:focus {
+  border-color: #1a3636;
+  outline: none;
+  box-shadow: 0 0 5px rgba(26, 54, 54, 0.5);
+}
+
+/* Submit Button */
+.contact-container button {
+  width: 100%;
+  padding: 10px;
+  background-color: #258173;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-container button:hover {
+  background-color: #145252;
+}
