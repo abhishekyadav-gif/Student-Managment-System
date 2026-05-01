@@ -30,7 +30,6 @@ body {
 }
 
 .message h2 {
-  
   width: 90%;
   max-width: 400px;
   font-size: 1.8rem;
@@ -117,22 +116,18 @@ button:hover {
     flex-direction: column;
   }
 
-  .container{
+  .container {
     display: flex;
     flex-direction: column;
-
   }
-  .container img{
+  .container img {
     width: 100%;
     max-width: 200px;
-
   }
 
-.form #textarea{
-  width: 100%;
-
-
-}
+  .form #textarea {
+    width: 100%;
+  }
 }
 
 @media (max-width: 480px) {
@@ -140,20 +135,16 @@ button:hover {
     flex-direction: column;
   }
 
-  .container{
+  .container {
     display: flex;
     flex-direction: column;
-
   }
-  .container img{
+  .container img {
     width: 100%;
     max-width: 200px;
-
   }
 
-.form #textarea{
-  width: 100%;
-  
-
-}
+  .form #textarea {
+    width: 100%;
+  }
 }
