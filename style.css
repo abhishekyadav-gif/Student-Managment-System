@@ -195,6 +195,49 @@ img {
   li input[type="text"] {
     width: 90%;
   }
+  .main_head {
+    flex-direction: column !important;
+    text-align: center !important;
+    align-items: center !important;
+  }
+
+  .head {
+    width: 100% !important;
+  }
+
+  .image {
+    width: 100% !important;
+    margin-top: 1rem !important;
+  }
+
+  .head h3 {
+    font-size: 2rem !important;
+    line-height: 1.4 !important;
+  }
+
+  /* Buttons ko column me lao */
+  .head h3 a {
+    display: block !important;
+    width: 100% !important;
+  }
+
+  .head h3 button {
+    width: 90% !important;
+    margin: 10px auto !important;
+    display: block !important;
+  }
+  .head h3 {
+    font-size: 1.5rem !important;
+  }
+
+  .head h3 button {
+    width: 100% !important;
+    font-size: 14px !important;
+  }
+
+  .image img {
+    max-width: 100% !important;
+  }
 }
 
 /* 🔥 Mobile */
