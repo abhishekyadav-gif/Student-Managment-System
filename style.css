@@ -229,6 +229,10 @@ img {
   }
 }
 
+.button_container {
+  margin-top: 1rem;
+}
+
 /* 🔥 Mobile */
 @media (max-width: 480px) {
   .footer-container {
