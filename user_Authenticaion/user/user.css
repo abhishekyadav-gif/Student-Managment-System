@@ -1,6 +1,6 @@
 /* General Page Styles */
 body {
-  background: url('bg.jpg') no-repeat center center/cover; 
+  background: url("bg.jpg") no-repeat center center/cover;
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
@@ -49,10 +49,70 @@ body {
   color: #ffffff;
   background-color: #1a3636;
   border-radius: 5px;
-  transition: background-color 0.3s ease, transform 0.2s ease;
+  transition:
+    background-color 0.3s ease,
+    transform 0.2s ease;
 }
 
 .choice-button:hover {
   background-color: #145252;
   transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+  .choice-container {
+    padding: 25px !important;
+    width: 90% !important;
+  }
+
+  .choice-container h1 {
+    font-size: 1.6rem !important;
+  }
+
+  .button-group {
+    flex-direction: column !important;
+    gap: 1rem !important;
+  }
+
+  .choice-button {
+    width: 80% !important;
+    margin: 0 auto !important;
+    display: block !important;
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  body {
+    padding: 10px !important;
+  }
+
+  .choice-container {
+    padding: 20px !important;
+  }
+
+  .choice-container h1 {
+    font-size: 1.3rem !important;
+  }
+
+  .choice-container p {
+    font-size: 14px !important;
+  }
+
+  .choice-button {
+    width: 100% !important;
+    font-size: 14px !important;
+    padding: 12px !important;
+  }
+}
+
+/* Extra Small */
+@media (max-width: 350px) {
+  .choice-container h1 {
+    font-size: 1.1rem !important;
+  }
+
+  .choice-button {
+    font-size: 13px !important;
+  }
 }
